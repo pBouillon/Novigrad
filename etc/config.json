@@ -1,0 +1,8 @@
+{
+    "attachment_path" : "./",
+    "mail_title"  : "Automatic dependency report",
+    "receiver"    : ["foo@bar.com"],
+    "report_name" : "Dependency_report.pdf",
+    "sender"      : "dependency_checker@novigrad.org",
+    "smtp"        : "192.168.223.254"
+}
