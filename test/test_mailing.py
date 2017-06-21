@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# author: FlorianVaissiere - https://github.com/FlorianVaissiere
+
 import sys
 sys.path.append('src')
 
