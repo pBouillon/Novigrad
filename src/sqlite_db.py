@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# author: pBouillon - https://github.com/pBouillon
 
 import csv
 from csv import reader

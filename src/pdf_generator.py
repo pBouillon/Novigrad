@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# author: FlorianVaissiere - https://github.com/FlorianVaissiere
 
 import reportlab.lib.colors
 from reportlab.lib.colors import black
