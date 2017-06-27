@@ -4,18 +4,12 @@
 This project was developped by [pBouillon](https://github.com/pBouillon) and [FlorianVaissiere](https://github.com/FlorianVaissiere). 
 
 ### Presentation
-Novigrad is a small tool built to check your dependencies. Once set up, it will send you an report on your mailbox every 24 hours (by default)
+Novigrad is a small tool built to check your dependencies. Once set up, it will send you an report on your mailbox every 24 hours (can be changed)
 
 ### PDF organisation 
 * _Up to date_: remind you what doesn't need your attention
 * _New commit available_: let you know that a commit is available
 * _New release available_: warn you that a new release is available
-
-### Constraints
-Developpment constraints where:
-* Shouldn't have any dependency
-* Send a mail with a report as PDF
-* Plan itself once a day everyday
 
 ## Cli usage
 You may need is:
