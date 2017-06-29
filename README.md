@@ -12,7 +12,7 @@ Novigrad is a small tool built to check your dependencies. Once set up, it will 
 * _New release available_: warn you that a new release is available
 
 ## Cli usage
-You may need is:
+You may need:
 * `-b`: run Novigrad as a background task
 * `-d [repo] [release] [commit] [owner]`: add a dependency to the database
 * `-m [mail]`: add a mail adress to the mailing list
