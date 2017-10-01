@@ -4,9 +4,7 @@
 import sys
 sys.path.append('src')
 
-import mailing
-from mailing import Mailing
-import unittest
+from src.com.novigard.util.mailing import Mailing
 import unittest.mock
 from unittest.mock import patch
 

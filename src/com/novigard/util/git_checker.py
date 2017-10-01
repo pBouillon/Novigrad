@@ -2,14 +2,11 @@
 # author: pBouillon - https://github.com/pBouillon
 
 import json
+from time import sleep
+
 import requests
 
-import datetime
-from datetime import datetime as dt
-import sqlite_db
-from sqlite_db import Sqlite_db
-import time
-from time          import sleep
+from src.com.novigard.db.sqlite_db import Sqlite_db
 
 """Integer: seconds to wait before the next request"""
 TEMPORISATION = 60*31

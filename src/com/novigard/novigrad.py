@@ -2,29 +2,20 @@
 # author: pBouillon - https://github.com/pBouillon
 
 import argparse
-from argparse      import ArgumentParser
-import csv
-import git_checker
-from git_checker   import Git_Checker
 import json
-import mailing
-from mailing       import Mailing
-import os
-from os            import fork
-from os            import setsid
-from os            import umask
-import pdf_generator
-from pdf_generator import Pdf_Generator
-import sched
-from sched         import scheduler
-import sqlite_db
-from sqlite_db     import Sqlite_db
 import sys
 import time
-from time          import sleep
-from time          import strftime
-from time          import time
+from os import fork
+from os import setsid
+from sched import scheduler
+from time import sleep
+from time import strftime
+from time import time
 
+from src.com.novigard.db.sqlite_db import Sqlite_db
+from src.com.novigard.util.git_checker import Git_Checker
+from src.com.novigard.util.mailing import Mailing
+from src.com.novigard.util.pdf_generator import Pdf_Generator
 
 """Constant: integer equals to 24 hours"""
 LATENCY = 60*60*24
