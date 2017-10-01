@@ -3,6 +3,7 @@
 
 import time
 
+import reportlab.lib.colors
 from reportlab.lib.colors import black
 from reportlab.lib.colors import green
 from reportlab.lib.colors import red
@@ -14,6 +15,7 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.platypus import Paragraph
 from reportlab.platypus import SimpleDocTemplate
 
+import src.com.novigard.db.sqlite_db
 from src.com.novigard.db.sqlite_db import Sqlite_db
 
 
