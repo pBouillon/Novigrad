@@ -2,9 +2,7 @@
 # author: pBouillon - https://github.com/pBouillon
 
 import csv
-from csv import reader
 import sqlite3
-from sqlite3 import connect
 from sqlite3 import Error
 
 
