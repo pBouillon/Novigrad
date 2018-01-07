@@ -4,10 +4,13 @@
 import sys
 sys.path.append('src')
 
+import sqlite_db 
+from   sqlite_db import Sqlite_db
+import subprocess
 from subprocess import call
 
-import unittest
-
+import unittest 
+import sys
 
 class TestNovigrad(unittest.TestCase):
 

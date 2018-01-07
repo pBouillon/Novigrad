@@ -1,22 +1,30 @@
 # -*- coding: utf-8 -*-
 # author: FlorianVaissiere - https://github.com/FlorianVaissiere
 
-import time
-
 import reportlab.lib.colors
 from reportlab.lib.colors import black
+from reportlab.lib.colors import red 
+from reportlab.lib.colors import yellow 
 from reportlab.lib.colors import green
-from reportlab.lib.colors import red
-from reportlab.lib.colors import yellow
+import reportlab.lib.enums
 from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.enums import TA_LEFT
+from reportlab.lib.enums import TA_RIGHT
+import reportlab.lib.styles
+from reportlab.lib.styles    import ParagraphStyle
+import reportlab.lib.pagesizes
 from reportlab.lib.pagesizes import letter
-from reportlab.lib.styles import ParagraphStyle
-from reportlab.platypus import Paragraph
+import reportlab.platypus
 from reportlab.platypus import SimpleDocTemplate
-
-import src.com.novigard.db.sqlite_db
-from src.com.novigard.db.sqlite_db import Sqlite_db
+from reportlab.platypus import Paragraph
+from reportlab.platypus import Spacer
+from reportlab.platypus import PageTemplate 
+from reportlab.platypus import Frame 
+import reportlab.pdfgen
+from reportlab.pdfgen import canvas
+import sqlite_db
+from sqlite_db        import Sqlite_db
+import time
 
 
 class Pdf_Generator:

@@ -1,14 +1,17 @@
 # -*- coding: utf-8 -*-
 # author: FlorianVaissiere - https://github.com/FlorianVaissiere
 
-import json
-import smtplib
 import email
-from email import encoders
-from email.mime.base import MIMEBase
+from email                import encoders
+import email.mime.base
+from email.mime.base      import MIMEBase
+import email.mime.multipart
 from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
+import email.mime.text
+from email.mime.text      import MIMEText
+import smtplib
 
+import json
 
 class Mailing:
     """Reference mailing

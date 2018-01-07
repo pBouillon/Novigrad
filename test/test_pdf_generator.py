@@ -4,8 +4,9 @@
 import sys
 sys.path.append('src')
 
-import src.com.novigard.util.pdf_generator
-from src.com.novigard.util.pdf_generator import Pdf_Generator
+import pdf_generator
+from pdf_generator import Pdf_Generator
+import unittest
 import unittest.mock
 from unittest.mock import patch
 
