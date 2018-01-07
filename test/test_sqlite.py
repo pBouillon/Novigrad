@@ -4,11 +4,9 @@
 import sys
 sys.path.append('src')
 
-import src.com.novigard.db.sqlite_db
-from src.com.novigard.db.sqlite_db import Sqlite_db
-import sqlite3
-from sqlite3 import Error
-import unittest
+import sqlite_db 
+from   sqlite_db import Sqlite_db
+import unittest 
 
 class TestSqlMethods(unittest.TestCase):
 
