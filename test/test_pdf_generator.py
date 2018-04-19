@@ -1,22 +1,20 @@
 # -*- coding: utf-8 -*-
 # author: FlorianVaissiere - https://github.com/FlorianVaissiere
 
-import sys
-sys.path.append('src')
-
-import pdf_generator
-from pdf_generator import Pdf_Generator
-import unittest
 import unittest.mock
 from unittest.mock import patch
+
+from pdfgenerator import PdfGenerator
+
 
 class TestMailingMethods(unittest.TestCase):
 
     def test_generatePDF(self):
-        with patch.object(Pdf_Generator, 'generatePDF', return_value=True) as mock:
-            pdf = Pdf_Generator()
-            pdf.generatePDF()
+        with patch.object(PdfGenerator, 'generatePDF', return_value=True) as mock:
+            pdf = PdfGenerator()
+            pdf.generate_pdf({})
             self.assertEquals(mock.return_value, True)
+
 
 if __name__ == '__main__':
     unittest.main()

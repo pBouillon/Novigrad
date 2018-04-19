@@ -1,10 +1,8 @@
-import codecs
-from codecs     import open
-import os
-from os         import path
-import setuptools
-from setuptools import setup
+from codecs import open
+from os import path
+
 from setuptools import find_packages
+from setuptools import setup
 
 here = path.abspath(path.dirname(__file__))
 
